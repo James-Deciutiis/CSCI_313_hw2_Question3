@@ -18,6 +18,7 @@ public:
 	//parameter contructor
 	TimeTrial(int t) : _trials(t){}
 	
+	//tests the time it takes to do basic stack operations and prints out time taken in milliseconds. 
 	void start(ArrayStack<int> a, LinkedStack<int> l){
 		cout<<"<--------------------- PUSHING: ----------------------->"<<endl;
 		cout<<"Filling array based stack with 10,000,000 random numbers"<<endl;
